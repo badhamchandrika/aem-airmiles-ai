@@ -94,7 +94,7 @@ public class OneTrustModel {
 
         // Skip if the system service is null.
         if (null == system) {
-            log.error("Unable to reference system user resource resolver service.");
+            log.error("Unable to reference system user's resource resolver service.");
             return;
         }
 
